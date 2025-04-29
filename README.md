@@ -118,66 +118,6 @@ A manual page for the shell is available. Use the following command to view it:
 $ man ./man_1_simple_shell
 ```
 
-## 🔄 Flowchart
-
-```
-+-------------------+
-|  Start Program    |
-+-------------------+
-         |
-         v
-+-------------------+
-|  Display Prompt   |<--------------+
-+-------------------+               |
-         |                          |
-         v                          |
-+-------------------+               |
-|   Read Command    |               |
-+-------------------+               |
-         |                          |
-         v                          |
-+-------------------+               |
-|   Parse Command   |               |
-+-------------------+               |
-         |                          |
-         v                          |
-+-------------------+               |
-|  Is it Built-in?  |--Yes-->+      |
-+-------------------+        |      |
-         | No               v      |
-         v            +-------------+
-+-------------------+ | Execute     |
-| Search in PATH    | | Built-in    |
-+-------------------+ +-------------+
-         |                  |
-         v                  |
-+-------------------+       |
-| Found command?    |--No-->+
-+-------------------+       |
-         | Yes             |
-         v                 |
-+-------------------+      |
-|  Fork Process     |      |
-+-------------------+      |
-         |                 |
-         v                 |
-+-------------------+      |
-|  Execute Command  |      |
-+-------------------+      |
-         |                 |
-         v                 |
-+-------------------+      |
-| Wait for Child    |      |
-+-------------------+      |
-         |                 |
-         v                 |
-+-------------------+      |
-| Exit command?     |--Yes-+
-+-------------------+
-         | No
-         +------------------+
-```
-
 ## 🧪 Testing
 
 To test the shell, run the following command:
@@ -185,11 +125,6 @@ To test the shell, run the following command:
 ```bash
 $ ./tests/check_simple_shell.bash
 ```
-
-## 👥 Authors
-
-* **Your Name** - [GitHub Profile](https://github.com/yourusername)
-* **Team Member Name** - [GitHub Profile](https://github.com/teammember)
 
 ## 📜 License
 
