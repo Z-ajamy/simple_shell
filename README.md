@@ -1,6 +1,6 @@
 # Simple Shell Project
 
-![Shell Banner](https://img.shields.io/badge/Simple%20Shell-ALX%20Project-blue?style=for-the-badge)
+![Shell Banner](https://i.pinimg.com/736x/bc/d9/1a/bcd91aa57fd4d13c5f4e1581404c1d74.jpg)
 
 ## 📝 Overview
 
